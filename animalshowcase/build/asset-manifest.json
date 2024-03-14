@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/css/main.cbc512fe.css",
-    "main.js": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/js/main.4db0b47e.js",
-    "static/js/453.dad37343.chunk.js": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/js/453.dad37343.chunk.js",
-    "index.html": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/index.html",
-    "main.cbc512fe.css.map": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/css/main.cbc512fe.css.map",
-    "main.4db0b47e.js.map": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/js/main.4db0b47e.js.map",
-    "453.dad37343.chunk.js.map": "https://juansebastianperniola.github.io/guiaTurismo/animalshowcase/build/static/js/453.dad37343.chunk.js.map"
+    "main.css": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/css/main.cbc512fe.css",
+    "main.js": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/js/main.2a98385d.js",
+    "static/js/453.dad37343.chunk.js": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/js/453.dad37343.chunk.js",
+    "index.html": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/index.html",
+    "main.cbc512fe.css.map": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/css/main.cbc512fe.css.map",
+    "main.2a98385d.js.map": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/js/main.2a98385d.js.map",
+    "453.dad37343.chunk.js.map": "https://juansebastianperniola.github.io/ReactLenguajeDeMarcas/animalshowcase/build/static/js/453.dad37343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbc512fe.css",
-    "static/js/main.4db0b47e.js"
+    "static/js/main.2a98385d.js"
   ]
 }
