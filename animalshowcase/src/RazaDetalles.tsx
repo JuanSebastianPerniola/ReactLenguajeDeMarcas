@@ -29,10 +29,6 @@ export interface Height {
   metric: string
 }
 
-export interface Weight {
-  imperial: string;
-  metric: string;
-}
 
 export interface RazaDetallesProps {
   
@@ -56,6 +52,7 @@ const RazaDetalles = ({ id }: { id: string }) => {
         fetchImage(data.reference_image_id);
       });
   }, [id]);
+
   //fetch con ifs para saber si la iamgen es .jpg, o .png
   const fetchImage = (imageId: string) => {
     //`` se usa para poner ${variableN}
@@ -75,11 +72,11 @@ const RazaDetalles = ({ id }: { id: string }) => {
   };
 
   return (
-    <div className="w-100% mb-10 m-auto">
+    <div className="container-fluid">
       <h1 className="position-relative">Detalles Raza</h1>
       {detalleRaza.map((raza) => (
-        <Card key={raza.id}>
-          <Card.Body>
+        <Card className="text-center align-self-baseline" key={raza.id}>
+          <Card.Body >
             <Card.Title>{raza.name}</Card.Title>
             <Card.Text>
               <h1>Bred for: {raza.life_span}</h1>
