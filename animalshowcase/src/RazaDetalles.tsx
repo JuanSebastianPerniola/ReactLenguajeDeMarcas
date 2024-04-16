@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Image from 'react-bootstrap/Image';
+
 export type DetallesRazas = DetalleRaza[];
 
 export interface DetalleRaza {
@@ -30,15 +31,9 @@ export interface Height {
 }
 
 
-export interface RazaDetallesProps {
-  
-  id: string;
-}
-
-
 const RazaDetalles = ({ id }: { id: string }) => {
   const [detalleRaza, setDetalleRaza] = useState<DetalleRaza[]>([]);
-  const [imageUrl, setImageUrl] = useState<string | null>(null);
+  const [imageUrl, setImageUrl] = useState<string>();
   // fetch para la imagen 
   useEffect(() => {
     fetch(`https://api.thedogapi.com/v1/breeds/${id}`, {
@@ -72,8 +67,8 @@ const RazaDetalles = ({ id }: { id: string }) => {
   };
 
   return (
-    <div className="container-fluid">
-      <h1 className="position-relative">Detalles Raza</h1>
+    <div className="container-fluid text-center">
+      <h1>Detalles Raza</h1>
       {detalleRaza.map((raza) => (
         <Card className="text-center align-self-baseline" key={raza.id}>
           <Card.Body >
